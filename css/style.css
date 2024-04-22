@@ -448,6 +448,20 @@ nav {
     width: 50%;
 }
 
+.mission-briefing {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.briefing-list li  {
+    list-style: disc;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
 .mission-img img {
     border-radius: 10px;
 }
